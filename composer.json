@@ -1,0 +1,41 @@
+{
+    "name": "flatroy/nova-treemap-chart-card",
+    "description": "A Laravel Nova card to show Treemap charts",
+    "keywords": [
+        "laravel",
+        "nova",
+        "treemap",
+        "chart",
+        "card",
+        "apexcharts"
+    ],
+
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "George Daneke",
+            "email": "hi@daneke.ge",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.4|^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Flatroy\\NovaTreemapChartCard\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Flatroy\\NovaTreemapChartCard\\CardServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
