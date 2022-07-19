@@ -44,8 +44,7 @@ After this the setup will be complete, you can use the components listed here.
 ```php
 // in App\Nova\User
 ...
-use Flatroy\FieldProgressbar\FieldProgressbar;
-use Laravel\Nova\Fields\Number;
+use Flatroy\NovaTreemapChartCard\NovaTreemapChartCard;
 ...
 
 /**
