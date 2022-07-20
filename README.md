@@ -3,10 +3,6 @@
 
 This package allows you to add three-map fields to your resource details page and dashboards in [Nova](https://nova.laravel.com).
 
-It basically takes a field with a decimal value between 0 and 1 and shows it as a percentage progress bar.
-
-To edit a field, we recommend using the standard Number (\Laravel\Nova\Fields\Number) field.
-
 <img src="https://github.com/flatroy/nova-treemap-chart-card/blob/main/img/img.png" alt="example">
 
 #### DISCLAIMER:
@@ -35,7 +31,7 @@ Just run:
 composer require flatroy/nova-treemap-chart-card
 ```
 
-After this the setup will be complete, you can use the components listed here.
+After installation, you can use the components listed here.
 
 ---
 
